@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="assets/img/image.jpg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
 	<title>CV</title>
 </head>
-<body>
-	<h1>Andrey Nezhdanov</h1>
-	<img src="assets/img/image.jpg" alt="my photo">
-  <h2>Contacts</h2>
-	
-  <ol>
-	  <li><b>Phone:</b> +7-916-388-46-67</li>
-		<li><b>Email:</b> nezhd.an@yandex.ru</li>
-		<li><b>GitHub:</b> <a href="https://github.com/Montek1o" target="_blank">Montek1o</a></li>
-		<li><b>Discord:</b> Montekio (@montek1o)</li>
-	</ol>
 
-	<h2>About me</h2>
-	<p>I am 24 years old. I work as a manager in a clothing store. My goal is to work as a frontend developer.</p>
-	<h2>Skills</h2>
-	<ul>
-		<li>HTML5, CSS3</li>
-		<li>JavaScript</li>
-		<li>Git, GitHub</li>
-		<li>VS code</li>
-	</ul>
-	<h2>Education</h2>
-	<ul>
-		<li>Moscow Aviation University</li>
-		<li>FreeCodeCamp</li>
-		<li>Code-basics</li>
-	</ul>
+<body>
+	<header>
+		<nav class="nav">
+			<ul>
+				<li><a href="#contacts">Contacts</a></li>
+				<li><a href="#aboutme">About me</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#code">Code</a></li>
+				<li><a href="#english">English</a></li>
+			</ul>
+		</nav>
+		<div class="div">
+			<img class="img" src="assets/img/image.jpg" alt="my photo">
+			<h1 class="name">Andrey Nezhdanov</h1>
+			<h3 class="bot">Front-end Developer</h3>
+		</div>
+	</header>
+	<main>
+		<section id="contacts">
+			<h2>Contacts</h2>
+			<ol>
+				<li><b>Phone:</b> +7-916-388-46-67</li>
+				<li><b>Email:</b> nezhd.an@yandex.ru</li>
+				<li><b>GitHub:</b> Montek1o</li>
+				<li><b>Discord:</b> Montekio (@montek1o)</li>
+			</ol>
+		</section>
+
+		<section id="aboutme">
+			<h2>About me</h2>
+			<p>I am 24 years old. I work as a manager in a clothing store. My goal is to work as a frontend developer.
+			</p>
+		</section>
+
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>HTML, CSS</li>
+				<li>JavaScript</li>
+				<li>Git, GitHub</li>
+				<li>VS code</li>
+			</ul>
+		</section>
+
+		<section id="education">
+			<h2>Education</h2>
+			<ul>
+				<li>Moscow Aviation University</li>
+				<li>FreeCodeCamp</li>
+				<li>Code-basics</li>
+			</ul>
+		</section>
+
+		<section id="code">
+			<h2>Code</h2>
+			<pre>
+				<code>
+	const square = (num) => {
+		return num * num;
+	};
+				</code>
+			</pre>
+		</section>
+
+		<section id="english">
+			<h2>English</h2>
+			<p>A - 1</p>
+		</section>
+	</main>
+	<footer>
+		<p class="year">© 2022</p>
+		<p class="git"><a href="https://github.com/Montek1o" target="_blank">Montek1o</a></p>
+		<a href="https://rs.school/js/" target="_blank"><img class="logo"
+				src="https://rs.school/images/rs_school_js.svg"></a>
+	</footer>
 </body>
+
 </html>
